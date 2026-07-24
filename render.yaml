@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: ck2717
+    runtime: node
+    plan: starter
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.2
+      - key: NEXT_PUBLIC_PHONE_CONFIRMED
+        value: "false"
+      - key: NEXT_PUBLIC_EMAIL_ACTIVE
+        value: "false"
+      - key: NEXT_PUBLIC_NASM_CPT_STATUS
+        value: pending
+      - key: NEXT_PUBLIC_CPR_AED_STATUS
+        value: pending
+      - key: NEXT_PUBLIC_NASM_CNC_STATUS
+        value: pending
+      - key: NEXT_PUBLIC_FOUNDING_SPOTS_REMAINING
+        value: "6"
+      - key: EMAIL_PROVIDER
+        value: log
+      # Set secrets (RESEND_API_KEY, EMAIL_FROM, LEAD_NOTIFY_EMAIL,
+      # TURNSTILE_SECRET_KEY, NEXT_PUBLIC_BOOKING_URL) in the Render dashboard.

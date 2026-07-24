@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  body {
+    @apply bg-sand font-body text-body;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  @media (min-width: 768px) {
+    body {
+      font-size: 17px;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-bold text-slate-deep;
+    line-height: 1.2;
+  }
+  a {
+    @apply underline-offset-2;
+  }
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-terracotta;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-lg bg-terracotta px-6 py-3 font-heading font-semibold text-white no-underline transition-colors hover:bg-terracotta-dark focus-visible:outline-slate-deep;
+  }
+  .btn-secondary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-lg border-2 border-slate-deep bg-transparent px-6 py-3 font-heading font-semibold text-slate-deep no-underline transition-colors hover:bg-slate-deep hover:text-white;
+  }
+  .card {
+    @apply rounded-xl border border-line bg-soft-white p-6;
+  }
+  .price-number {
+    font-feature-settings: 'tnum';
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Keep content clear of the mobile sticky bar */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 4.5rem;
+  }
+}
