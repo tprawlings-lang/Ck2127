@@ -6,6 +6,7 @@ import { formatCents } from '@/lib/money';
 import { Hero } from '@/components/Hero';
 import { LocationBlock } from '@/components/LocationBlock';
 import { LegalNotice } from '@/components/LegalNotice';
+import { SitePhoto } from '@/components/SitePhoto';
 
 export const metadata: Metadata = {
   title: { absolute: `One-on-One Personal Training in Phoenix | ${site.brandName}` },
@@ -45,18 +46,21 @@ export default function PersonalTrainingPage() {
       />
 
       <section className="container-site py-14">
-        <div className="max-w-3xl">
-          <h2 className="text-2xl md:text-3xl">Who this is for — and what the first visit feels like</h2>
-          <p className="mt-4">
-            Most of Connor&apos;s clients are adults 40 to 65 who feel out of practice, unsure about equipment, or
-            uncomfortable walking into a gym alone. Your first appointment is a conversation and a gentle
-            starting-point assessment — not a test, and not a punishing workout. Connor meets you when you arrive,
-            explains everything, and selects exercises and training times that fit your comfort level.
-          </p>
-          <p className="mt-4">
-            Sessions are scheduled in one-hour calendar blocks with approximately 50 minutes of coaching, leaving
-            time to arrive, settle in, and wrap up without rushing.
-          </p>
+        <div className="grid items-center gap-8 md:grid-cols-[1.5fr_1fr]">
+          <div>
+            <h2 className="text-2xl md:text-3xl">Who this is for — and what the first visit feels like</h2>
+            <p className="mt-4">
+              Most of Connor&apos;s clients are adults 40 to 65 who feel out of practice, unsure about equipment, or
+              uncomfortable walking into a gym alone. Your first appointment is a conversation and a gentle
+              starting-point assessment — not a test, and not a punishing workout. Connor meets you when you arrive,
+              explains everything, and selects exercises and training times that fit your comfort level.
+            </p>
+            <p className="mt-4">
+              Sessions are scheduled in one-hour calendar blocks with approximately 50 minutes of coaching, leaving
+              time to arrive, settle in, and wrap up without rushing.
+            </p>
+          </div>
+          <SitePhoto slot="exerciseDemo" sizes="(max-width: 768px) 100vw, 40vw" />
         </div>
       </section>
 

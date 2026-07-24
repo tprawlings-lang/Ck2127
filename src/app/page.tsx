@@ -6,7 +6,7 @@ import { ServiceCard } from '@/components/ServiceCard';
 import { FAQAccordion } from '@/components/FAQAccordion';
 import { LocationBlock } from '@/components/LocationBlock';
 import { CredentialList } from '@/components/CredentialCard';
-import { ImagePlaceholder } from '@/components/ImagePlaceholder';
+import { SitePhoto } from '@/components/SitePhoto';
 
 export const metadata: Metadata = {
   title: { absolute: `Personal Trainer Phoenix for Adults 40+ | ${site.brandName}` },
@@ -64,6 +64,13 @@ export default function HomePage() {
         secondaryCta={{ href: '#how-it-works', label: site.cta.secondaryHow }}
         reassurance="You do not need to get in shape before contacting Connor."
       />
+
+      {/* Hero photo */}
+      <section aria-label="Connor Kearns" className="bg-soft-white pb-14">
+        <div className="container-site">
+          <SitePhoto slot="heroBanner" className="aspect-[5/2]" sizes="(max-width: 1152px) 100vw, 1152px" priority />
+        </div>
+      </section>
 
       {/* Quick reassurance strip */}
       <section aria-label="Quick reassurance" className="border-y border-line bg-sand">
@@ -191,7 +198,7 @@ export default function HomePage() {
       {/* Meet Connor */}
       <section className="bg-soft-white py-14">
         <div className="container-site grid items-start gap-8 md:grid-cols-[1fr_1.5fr]">
-          <ImagePlaceholder label="Photo kit #3 — smiling headshot (awaiting full-res file, see PHOTO_KIT.md)" className="aspect-[3/4]" />
+          <SitePhoto slot="meetConnor" className="aspect-[3/4]" sizes="(max-width: 768px) 100vw, 40vw" />
           <div>
             <h2 className="text-2xl md:text-3xl">Meet Connor Kearns</h2>
             <p className="mt-4">
@@ -234,7 +241,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <ImagePlaceholder label="Photo kit #13 — meal prep setup (awaiting full-res file, see PHOTO_KIT.md)" />
+          <SitePhoto slot="mealPrep" />
         </div>
       </section>
 

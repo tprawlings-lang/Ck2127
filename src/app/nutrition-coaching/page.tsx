@@ -5,6 +5,7 @@ import { pricing } from '@/config/pricing';
 import { formatCents } from '@/lib/money';
 import { Hero } from '@/components/Hero';
 import { CredentialCard } from '@/components/CredentialCard';
+import { SitePhoto } from '@/components/SitePhoto';
 
 export const metadata: Metadata = {
   title: { absolute: `Nutrition Coaching and Meal-Prep Support Phoenix | ${site.brandName}` },
@@ -33,6 +34,7 @@ export default function NutritionCoachingPage() {
       />
 
       <section className="container-site py-14">
+        <SitePhoto slot="groceryShopping" className="aspect-[5/2] mb-10" sizes="(max-width: 1152px) 100vw, 1152px" />
         <div className="grid gap-8 md:grid-cols-2">
           <div className="card">
             <h2 className="text-xl">What nutrition coaching is</h2>

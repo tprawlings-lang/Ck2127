@@ -4,17 +4,17 @@ A 21-shot photo kit was provided (July 24, 2026) to build the site's visual
 identity. The contact sheet and sliced reference tiles live in
 `reference/photo-kit/` (repo reference only — NOT served on the site).
 
-## Why these aren't on the site yet
+## Status: LIVE as launch-vehicle images (July 24, 2026)
 
-1. **Resolution.** The kit arrived as one 1536×1024 contact sheet, so each
-   shot is only ~300px wide. Hero and section images need 1600–2400px on the
-   long edge. → **Need: the individual full-resolution files.**
-2. **Burned-in captions.** Every tile has its label ("1. WEBSITE HERO IMAGE…")
-   baked into the pixels. → **Need: caption-free versions.**
+Per Travis's direction, caption-cropped versions of shots 1, 2, 3, 8, 12, 13,
+and 14 are live on the site (`public/images/`, mapped in
+`src/config/images.ts`). These were cut from the 1536×1024 contact sheet, so
+each is only ~300px wide — soft at large sizes but serviceable for launch.
 
-Send the individual files and each one drops straight into the mapped slot
-below (`src/config/images.ts` will be created at that point; components
-already isolate every placeholder).
+**Upgrade path:** drop the full-resolution, caption-free file over the same
+filename in `public/images/` — no code changes needed. Still request from
+the kit source: individual files at original resolution (ideally ≥2000px
+long edge), no caption overlays, keeping the kit numbering.
 
 ## Shot → site placement map
 

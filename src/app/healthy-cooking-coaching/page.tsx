@@ -5,7 +5,7 @@ import { pricing } from '@/config/pricing';
 import { formatCents } from '@/lib/money';
 import { Hero } from '@/components/Hero';
 import { LegalNotice } from '@/components/LegalNotice';
-import { ImagePlaceholder } from '@/components/ImagePlaceholder';
+import { SitePhoto } from '@/components/SitePhoto';
 
 export const metadata: Metadata = {
   title: { absolute: `Private Healthy Cooking Lessons Phoenix | ${site.brandName}` },
@@ -52,7 +52,7 @@ export default function HealthyCookingPage() {
               <li>Allergies and kitchen readiness are confirmed in advance with a short checklist.</li>
             </ul>
           </div>
-          <ImagePlaceholder label="Photo kit #14 — cooking instruction (awaiting full-res file; client-imagery caveat in PHOTO_KIT.md)" />
+          <SitePhoto slot="cookingInstruction" />
         </div>
       </section>
 
