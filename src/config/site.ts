@@ -2,14 +2,13 @@
  * Single source of truth for business identity, contact details, and launch gates.
  * No page component may hard-code any of these values.
  *
- * BRAND NAME STATUS: "CK2717 Fitness" is the recommended brand identity built
- * around the ck2717.com domain. It is PENDING sign-off from Travis and Connor.
- * See BRAND_IDENTITY.md for the full proposal and alternatives. Changing the
- * name here updates the entire site.
+ * BRAND NAME STATUS: "CK2717 Fitness" was approved by Travis Rawlings on
+ * July 24, 2026 (see BRAND_IDENTITY.md). Changing the name here updates the
+ * entire site.
  */
 
 export const site = {
-  /** Public brand name shown across the site. Pending sign-off. */
+  /** Public brand name shown across the site. Approved. */
   brandName: 'CK2717 Fitness',
   /** The person behind the brand. Always keep Connor's name prominent. */
   ownerName: 'Connor Kearns',

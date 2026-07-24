@@ -3,7 +3,7 @@ import { site } from '@/config/site';
 /**
  * CK2717 monogram: two geometric strokes forming rising steps — a path of
  * steady forward movement. Original mark; no dumbbells, flames, or shields.
- * PENDING brand sign-off — see BRAND_IDENTITY.md.
+ * Approved brand identity — see BRAND_IDENTITY.md.
  */
 export function LogoMark({
   className = 'h-9 w-9',

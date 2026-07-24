@@ -1,6 +1,6 @@
 # CK2717 — ck2717.com
 
-Website for **CK2717 Fitness** (brand name pending sign-off — see
+Website for **CK2717 Fitness** (approved brand identity — see
 `BRAND_IDENTITY.md`): Connor Kearns' personal training, nutrition coaching,
 and healthy cooking coaching business for adults 40–65 in Phoenix.
 
@@ -83,7 +83,7 @@ console; submissions print both emails.
 
 ## Documentation
 
-- `BRAND_IDENTITY.md` — brand proposal awaiting sign-off (+ `brand-board.html`)
+- `BRAND_IDENTITY.md` — approved brand identity (+ `brand-board.html`)
 - `assets-needed.md` — every missing asset/approval
 - `pricing.md` — pricing model in plain language + test cases
 - `content-guide.md` — voice, prohibited claims, article standards

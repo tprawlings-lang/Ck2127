@@ -8,8 +8,9 @@ PLACEHOLDER" or "[PLACEHOLDER: …]").
 
 | Item | Owner | Notes |
 | --- | --- | --- |
-| **Brand name sign-off** | Travis + Connor | "CK2717 Fitness" recommended — see BRAND_IDENTITY.md and brand-board.html |
-| Booking platform + URL | Connor | Set `NEXT_PUBLIC_BOOKING_URL`; buttons fall back to the contact form until then |
+| ~~Brand name sign-off~~ | Travis + Connor | ✅ APPROVED July 24, 2026 — "CK2717 Fitness" (see BRAND_IDENTITY.md) |
+| Booking platform + URL | Connor | Deferred by Travis — decide later. Set `NEXT_PUBLIC_BOOKING_URL`; buttons fall back to the contact form until then |
+| Call/consultation platform | Connor | Deferred by Travis — decide later (phone vs. video platform for the Free Start Strong Call) |
 | Response-time promise | Connor | Contact page currently says "within one business day" — confirm or change |
 | Pricing final approval | Connor + Travis | Values implemented exactly per handoff v1.0 |
 

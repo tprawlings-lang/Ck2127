@@ -1,8 +1,8 @@
-# CK2717 Brand Identity — Proposal for Sign-Off
+# CK2717 Brand Identity
 
-**Status: AWAITING SIGN-OFF from Travis Rawlings and Connor Kearns.**
-The site is built against the recommended option below; changing the approved
-name is a one-line edit in `src/config/site.ts` (`brandName`).
+**Status: APPROVED — Option A ("CK2717 Fitness") signed off by Travis
+Rawlings on July 24, 2026.** The name lives in `src/config/site.ts`
+(`brandName`); any future change is a one-line edit there.
 
 ## Context
 
@@ -12,7 +12,7 @@ preferred domain connorkearnsfitness.com. The chosen domain is now
 stays visually prominent everywhere (a handoff hard rule), and everything else
 approved in the handoff — taglines, CTAs, colors, typography, voice — is kept.
 
-## Recommended: Option A — "CK2717 Fitness"
+## Approved: Option A — "CK2717 Fitness"
 
 - **Public business name:** CK2717 Fitness
 - **Descriptor lockup:** CK2717 · Connor Kearns · Fitness + Nutrition + Cooking
@@ -71,11 +71,11 @@ approved in the handoff — taglines, CTAs, colors, typography, voice — is kep
 - **Pricing:** Manrope with tabular numerals
 - **Fallback:** system sans-serif stack
 
-## What sign-off covers
+## Sign-off record
 
-1. The public business name (Option A recommended).
-2. The CK2717 monogram direction (see `brand-board.html` for the visual board).
-3. The email address hello@ck2717.com.
+Approved on July 24, 2026: the public business name **CK2717 Fitness**, the
+CK2717 monogram direction (see `brand-board.html`), and the email address
+hello@ck2717.com.
 
-Once signed off, update: `src/config/site.ts` if the name changes, Google/
-directory listings, insurance, and invoices to the identical name.
+Follow-through: use the identical name "CK2717 Fitness" on Google, directory
+listings, insurance, social accounts, and invoices.
