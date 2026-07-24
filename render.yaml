@@ -2,13 +2,13 @@ services:
   - type: web
     name: ck2717
     runtime: node
-    plan: starter
+    plan: free
     buildCommand: npm ci && npm run build
     startCommand: npm run start
     healthCheckPath: /
     envVars:
       - key: NODE_VERSION
-        value: 22.22.2
+        value: "22"
       - key: NEXT_PUBLIC_PHONE_CONFIRMED
         value: "false"
       - key: NEXT_PUBLIC_EMAIL_ACTIVE
