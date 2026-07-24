@@ -45,6 +45,11 @@ PLACEHOLDER" or "[PLACEHOLDER: …]").
 
 ## Photography (all need signed releases; no stock before/afters, no AI fakes)
 
+> **Update July 24, 2026:** a 21-shot photo kit was received — see
+> `PHOTO_KIT.md` for the shot→placement map. Still needed: the individual
+> full-resolution, caption-free files (the contact sheet is too small to use),
+> plus resolution of the client-imagery and gym-interior caveats in that doc.
+
 - Hero: Connor inside The Gym Phoenix, smiling, professional training clothes
 - Connor coaching a man ~45–60 (manageable strength exercise)
 - Connor coaching a woman ~45–60 (calm instruction)

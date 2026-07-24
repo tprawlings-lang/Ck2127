@@ -52,7 +52,7 @@ export default function HealthyCookingPage() {
               <li>Allergies and kitchen readiness are confirmed in advance with a short checklist.</li>
             </ul>
           </div>
-          <ImagePlaceholder label="Connor and a client preparing ingredients in a real home kitchen" />
+          <ImagePlaceholder label="Photo kit #14 — cooking instruction (awaiting full-res file; client-imagery caveat in PHOTO_KIT.md)" />
         </div>
       </section>
 

@@ -21,7 +21,7 @@ export default function AboutPage() {
     <>
       <section className="bg-soft-white">
         <div className="container-site grid items-start gap-10 py-14 md:grid-cols-[1fr_1.6fr]">
-          <ImagePlaceholder label="Friendly professional portrait of Connor" className="aspect-[3/4]" />
+          <ImagePlaceholder label="Photo kit #2 — professional headshot (awaiting full-res file, see PHOTO_KIT.md)" className="aspect-[3/4]" />
           <div>
             <h1 className="text-3xl md:text-4xl">I work with people who are starting over — or starting for the first time.</h1>
             <p className="mt-5">

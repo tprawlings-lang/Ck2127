@@ -191,7 +191,7 @@ export default function HomePage() {
       {/* Meet Connor */}
       <section className="bg-soft-white py-14">
         <div className="container-site grid items-start gap-8 md:grid-cols-[1fr_1.5fr]">
-          <ImagePlaceholder label="Connor inside The Gym Phoenix — smiling, professional training clothes" className="aspect-[3/4]" />
+          <ImagePlaceholder label="Photo kit #3 — smiling headshot (awaiting full-res file, see PHOTO_KIT.md)" className="aspect-[3/4]" />
           <div>
             <h2 className="text-2xl md:text-3xl">Meet Connor Kearns</h2>
             <p className="mt-4">
@@ -234,7 +234,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <ImagePlaceholder label="Grocery list, prep containers, and a simple cooking session in a real home kitchen" />
+          <ImagePlaceholder label="Photo kit #13 — meal prep setup (awaiting full-res file, see PHOTO_KIT.md)" />
         </div>
       </section>
 
