@@ -28,7 +28,7 @@ export function planFromSearchParams(params: Record<string, string | string[] | 
     const parts = result.lineItems.map((li) => li.label);
     return {
       pricingMode: 'monthly',
-      summary: `Monthly Coaching: ${parts.join(' + ')} — ${formatCents(result.standardCents)}/month standard`,
+      summary: `Monthly Coaching: ${parts.join(' + ')} at ${formatCents(result.standardCents)}/month standard`,
     };
   }
 
@@ -45,7 +45,7 @@ export function planFromSearchParams(params: Record<string, string | string[] | 
     });
     return {
       pricingMode: 'build-your-own',
-      summary: `Build Your Own: ${chosen.map((c) => c.label).join(' + ')} — ${formatCents(result.displayTotalCents)} service total`,
+      summary: `Build Your Own: ${chosen.map((c) => c.label).join(' + ')} at ${formatCents(result.displayTotalCents)} service total`,
     };
   }
 

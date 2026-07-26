@@ -51,7 +51,7 @@ export function MonthlyPlanBuilder() {
                 setStep('ptPlan');
               }}
             >
-              Yes — train with Connor at The Gym Phoenix
+              Yes, train with Connor at The Gym Phoenix
             </button>
             <button
               type="button"
@@ -63,7 +63,7 @@ export function MonthlyPlanBuilder() {
                 setStep('nutrition');
               }}
             >
-              No — nutrition and/or cooking coaching only
+              No, nutrition and/or cooking coaching only
             </button>
           </div>
         </fieldset>
@@ -90,7 +90,7 @@ export function MonthlyPlanBuilder() {
                 >
                   <span className="flex flex-wrap items-baseline justify-between gap-2">
                     <span>
-                      {plan.label} — {plan.sessions} × {plan.minutes}-minute sessions per month
+                      {plan.label}: {plan.sessions} × {plan.minutes}-minute sessions per month
                       {'mostPopular' in plan && plan.mostPopular && (
                         <span className="ml-2 rounded-full bg-terracotta px-2 py-0.5 text-xs font-bold text-white">
                           Most Popular

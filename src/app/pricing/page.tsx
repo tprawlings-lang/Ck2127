@@ -20,7 +20,7 @@ export default function PricingPage() {
           <h1 className="text-3xl md:text-4xl">Clear pricing, before you ever commit</h1>
           <p className="mt-4 max-w-2xl">
             Choose Monthly Coaching for the best effective price and ongoing accountability, or Build Your Own for
-            one-time services without automatic renewal. Every path ends in a conversation with Connor — never an
+            one-time services without automatic renewal. Every path ends in a conversation with Connor, never an
             instant checkout.
           </p>
           <div className="mt-5">
@@ -38,7 +38,7 @@ export default function PricingPage() {
           <h2 className="text-2xl">Entry offers</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <div className="card">
-              <h3 className="text-lg">{pricing.freeCall.name} — free</h3>
+              <h3 className="text-lg">{pricing.freeCall.name}: free</h3>
               <p className="mt-2">
                 A {pricing.freeCall.minutes}-minute phone or video conversation about goals, barriers, schedule,
                 concerns, and fit. No workout, no sales pressure, no obligation.
@@ -46,12 +46,12 @@ export default function PricingPage() {
             </div>
             <div className="card">
               <h3 className="text-lg">
-                {pricing.assessment.name} — {formatCents(pricing.assessment.standardCents)}
+                {pricing.assessment.name}: {formatCents(pricing.assessment.standardCents)}
               </h3>
               <p className="mt-2">
                 A {pricing.assessment.minutes}-minute goal discussion, history, basic movement assessment,
                 beginner-friendly session, and written next-step summary. The full {formatCents(pricing.assessment.standardCents)}{' '}
-                is credited to your first monthly invoice when you join within {pricing.assessment.creditWindowDays} days —
+                is credited to your first monthly invoice when you join within {pricing.assessment.creditWindowDays} days,
                 and it is waived entirely for founding clients.
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function PricingPage() {
             <li>Monthly plans bill in advance on the same calendar day each month, with clear written consent.</li>
             <li>{pricing.notices.term}</li>
             <li>
-              Personal Training sessions need {pricing.policies.ptCancellationHours} hours notice — late cancellations
+              Personal Training sessions need {pricing.policies.ptCancellationHours} hours notice. Late cancellations
               and no-shows count as used sessions, with one courtesy late cancellation every{' '}
               {pricing.policies.courtesyLateCancelEveryDays} days.
             </li>

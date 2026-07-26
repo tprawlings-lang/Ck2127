@@ -25,7 +25,7 @@ export function LocationBlock({ showMap = true }: { showMap?: boolean }) {
         <p className="mt-2">{site.gym.membershipStatement}</p>
         {site.gym.approvedMembershipPrice === null && (
           <p className="mt-2 text-muted">
-            Current membership pricing is set by the gym — please check the gym&apos;s official membership page for
+            Current membership pricing is set by the gym. Please check the gym&apos;s official membership page for
             current rates.
           </p>
         )}

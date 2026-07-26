@@ -25,7 +25,7 @@ const lessonPaths = [
   },
   {
     title: 'For couples and households',
-    text: 'A shared plan that fits different goals — split tasks, agree on staple meals, and build a kitchen system the whole household can keep.',
+    text: 'A shared plan that fits different goals: split tasks, agree on staple meals, and build a kitchen system the whole household can keep.',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function HealthyCookingPage() {
     <>
       <Hero
         title="Private Healthy Cooking and Meal-Prep Coaching in Phoenix"
-        subhead="Connor teaches in your kitchen and you do the cooking with him — so the skills, recipes, and prep routine stay with you long after the lesson."
+        subhead="Connor teaches in your kitchen and you do the cooking with him, so the skills, recipes, and prep routine stay with you long after the lesson."
         primaryCta={{ href: '/contact', label: 'Talk With Connor About a Cooking Session' }}
         secondaryCta={{ href: '/pricing', label: site.cta.secondaryBuild }}
         reassurance="This is instruction, not meal delivery, catering, or prepared-food sales."
@@ -46,7 +46,7 @@ export default function HealthyCookingPage() {
             <h2 className="text-2xl md:text-3xl">How the lessons work</h2>
             <ul className="mt-4 list-disc space-y-2 pl-5">
               <li>Sessions take place in your kitchen, and you participate in every step.</li>
-              <li>You buy the groceries, or reimburse Connor at exact receipt cost — no markup.</li>
+              <li>You buy the groceries, or reimburse Connor at exact receipt cost, with no markup.</li>
               <li>Recipes and the grocery list are approved together before the session.</li>
               <li>Every lesson covers food-safety basics, kitchen organization, portioning, storage, and reheating.</li>
               <li>Allergies and kitchen readiness are confirmed in advance with a short checklist.</li>
@@ -110,7 +110,7 @@ export default function HealthyCookingPage() {
           <h3 className="text-lg">Free downloads</h3>
           <p className="mt-2 text-sm text-muted">
             A sample grocery list and kitchen-prep checklist will be available here.
-            <span className="font-semibold"> [PLACEHOLDER: downloads pending Connor&apos;s content approval — tracked in assets-needed.md]</span>
+            <span className="font-semibold"> [PLACEHOLDER: downloads pending Connor&apos;s content approval. Tracked in assets-needed.md]</span>
           </p>
         </div>
       </section>

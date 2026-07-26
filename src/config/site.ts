@@ -21,7 +21,7 @@ export const site = {
   /** Secondary tagline. */
   taglineSecondary: 'Simple training. Better habits. Lasting progress.',
   /** Main SEO headline (homepage H1). */
-  seoHeadline: 'Personal Training for Adults 40+ in Phoenix',
+  seoHeadline: 'Personal Training in Phoenix',
 
   domain: 'ck2717.com',
   url: 'https://ck2717.com',

@@ -13,11 +13,11 @@ const sourceSans = Source_Sans_3({ subsets: ['latin'], variable: '--font-source-
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `Personal Trainer Phoenix for Adults 40+ | ${site.brandName}`,
+    default: `Personal Trainer in Phoenix | ${site.brandName}`,
     template: `%s | ${site.brandName}`,
   },
   description:
-    'Patient one-on-one personal training, nutrition coaching, and healthy cooking instruction for adults 40 to 65 in Phoenix. Start where you are. Build strength that lasts.',
+    'Patient one-on-one personal training, nutrition coaching, and healthy cooking instruction in Phoenix. Start where you are. Build strength that lasts.',
   openGraph: {
     siteName: site.brandName,
     type: 'website',

@@ -15,7 +15,7 @@ export default function FitnessDisclaimerPage() {
       sections={[
         {
           heading: 'Not medical advice',
-          body: 'Nothing on this site — and nothing in a coaching session — is physical therapy, injury diagnosis, medical rehabilitation, or treatment. Consult your physician before beginning any new exercise program, especially with a known condition or injury.',
+          body: 'Nothing on this site, and nothing in a coaching session, is physical therapy, injury diagnosis, medical rehabilitation, or treatment. Consult your physician before beginning any new exercise program, especially with a known condition or injury.',
         },
         {
           heading: 'Readiness screening',

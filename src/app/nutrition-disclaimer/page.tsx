@@ -23,7 +23,7 @@ export default function NutritionDisclaimerPage() {
         },
         {
           heading: 'Your responsibility',
-          body: 'Always follow the guidance of your medical providers. Nutrition coaching supplements healthy habits — it never replaces medical care.',
+          body: 'Always follow the guidance of your medical providers. Nutrition coaching supplements healthy habits. It never replaces medical care.',
         },
       ]}
     />

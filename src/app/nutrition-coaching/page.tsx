@@ -28,7 +28,7 @@ export default function NutritionCoachingPage() {
     <>
       <Hero
         title="Practical Nutrition Coaching in Phoenix"
-        subhead="Education, habits, accountability, grocery planning, and meal-prep structure — built from what you already eat, not a diet handed down from above."
+        subhead="Education, habits, accountability, grocery planning, and meal-prep structure, built from what you already eat rather than a diet handed down from above."
         primaryCta={{ href: '/contact', label: 'Talk With Connor About Nutrition Coaching' }}
         secondaryCta={{ href: '/pricing', label: site.cta.secondaryBuild }}
       />
@@ -40,7 +40,7 @@ export default function NutritionCoachingPage() {
             <h2 className="text-xl">What nutrition coaching is</h2>
             <p className="mt-3">
               General nutrition education and behavior coaching for healthy adults. Connor reviews your current
-              habits and barriers, then helps you build meal structure, grocery routines, and steady accountability —
+              habits and barriers, then helps you build meal structure, grocery routines, and steady accountability,
               with weekly check-ins and agreed action steps.
             </p>
             <ul className="mt-4 list-disc space-y-2 pl-5">
@@ -57,7 +57,7 @@ export default function NutritionCoachingPage() {
               he is not a registered dietitian.
             </p>
             <p className="mt-3">
-              When a need is medical — including eating disorders or pregnancy-specific concerns — Connor refers you
+              When a need is medical, including eating disorders or pregnancy-specific concerns, Connor refers you
               to a registered dietitian, physician, or other qualified professional.
             </p>
           </div>
@@ -113,7 +113,7 @@ export default function NutritionCoachingPage() {
       <section className="bg-terracotta/10 py-14 text-center">
         <div className="container-site">
           <h2 className="text-2xl md:text-3xl">Not sure which option fits?</h2>
-          <p className="mx-auto mt-3 max-w-xl">Ask questions first — the 15-minute call is free and has no obligation.</p>
+          <p className="mx-auto mt-3 max-w-xl">Ask questions first. The 15-minute call is free and has no obligation.</p>
           <Link href="/contact" className="btn-primary mt-6" data-analytics="hero_cta_click">
             Talk With Connor About Nutrition Coaching
           </Link>

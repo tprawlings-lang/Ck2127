@@ -48,11 +48,11 @@ export default function PersonalTrainingPage() {
       <section className="container-site py-14">
         <div className="grid items-center gap-8 md:grid-cols-[1.5fr_1fr]">
           <div>
-            <h2 className="text-2xl md:text-3xl">Who this is for — and what the first visit feels like</h2>
+            <h2 className="text-2xl md:text-3xl">Who this is for and what the first visit feels like</h2>
             <p className="mt-4">
               Most of Connor&apos;s clients are adults 40 to 65 who feel out of practice, unsure about equipment, or
               uncomfortable walking into a gym alone. Your first appointment is a conversation and a gentle
-              starting-point assessment — not a test, and not a punishing workout. Connor meets you when you arrive,
+              starting-point assessment, not a test and not a punishing workout. Connor meets you when you arrive,
               explains everything, and selects exercises and training times that fit your comfort level.
             </p>
             <p className="mt-4">
@@ -83,7 +83,7 @@ export default function PersonalTrainingPage() {
             </ul>
             <p className="mt-4 text-sm text-muted">
               If a condition or injury needs medical clearance, Connor will ask you to check with your physician or a
-              qualified professional first — he does not diagnose or treat injuries.
+              qualified professional first. He does not diagnose or treat injuries.
             </p>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function PersonalTrainingPage() {
         <div className="container-site">
           <LocationBlock />
           <p className="mt-4 max-w-3xl text-sm text-muted">
-            Nervous about a busy gym floor? Tell Connor on your first call — appointment times can be planned around
+            Nervous about a busy gym floor? Tell Connor on your first call. Appointment times can be planned around
             your comfort level.
           </p>
         </div>

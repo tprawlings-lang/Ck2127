@@ -9,9 +9,9 @@ import { CredentialList } from '@/components/CredentialCard';
 import { SitePhoto } from '@/components/SitePhoto';
 
 export const metadata: Metadata = {
-  title: { absolute: `Personal Trainer Phoenix for Adults 40+ | ${site.brandName}` },
+  title: { absolute: `Personal Trainer in Phoenix | ${site.brandName}` },
   description:
-    'Patient one-on-one personal training, nutrition coaching, and healthy cooking instruction for adults 40 to 65 in Phoenix. Free 15-minute call. Transparent pricing.',
+    'Patient one-on-one personal training, nutrition coaching, and healthy cooking instruction in Phoenix. Free 15-minute call. Transparent pricing.',
   alternates: { canonical: '/' },
 };
 
@@ -24,7 +24,7 @@ const faqs = [
   {
     question: 'The gym looks intimidating. What is the first visit like?',
     answer:
-      'Connor meets you when you arrive and guides every part of the session — equipment, pacing, everything. Lower-traffic appointment times may be available.',
+      'Connor meets you when you arrive and guides every part of the session: equipment, pacing, everything. Lower-traffic appointment times may be available.',
   },
   {
     question: 'Do I need a gym membership too?',
@@ -34,12 +34,12 @@ const faqs = [
   {
     question: 'Will I be put on a strict diet?',
     answer:
-      'No. Nutrition coaching starts with your current habits and builds practical changes — no crash diets or punishment plans. Medical or prescribed diets are outside Connor’s service and are referred to qualified professionals.',
+      'No. Nutrition coaching starts with your current habits and builds practical changes, with no crash diets or punishment plans. Medical or prescribed diets are outside Connor’s service and are referred to qualified professionals.',
   },
   {
     question: 'What if I cannot cook?',
     answer:
-      'Cooking sessions begin with basic skills, a small number of recipes, and a repeatable prep routine — taught in your own kitchen so you can repeat it without Connor.',
+      'Cooking sessions begin with basic skills, a small number of recipes, and a repeatable prep routine, taught in your own kitchen so you can repeat it without Connor.',
   },
   {
     question: 'Am I locked into a long contract?',
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'Can I ask questions before paying anything?',
     answer:
-      'Yes — that is the whole point of the Free Start Strong Call. Fifteen minutes, no workout, no sales pressure, no obligation.',
+      'Yes. That is the whole point of the Free Start Strong Call. Fifteen minutes, no workout, no sales pressure, no obligation.',
   },
 ];
 
@@ -76,7 +76,7 @@ export default function HomePage() {
       <section aria-label="Quick reassurance" className="border-y border-line bg-sand">
         <ul className="container-site flex flex-wrap justify-center gap-x-8 gap-y-2 py-4 text-sm font-semibold text-sage">
           <li>Beginner-friendly</li>
-          <li>Men and women welcome</li>
+          <li>Everyone welcome</li>
           <li>Training starts at your level</li>
           <li>Nutrition without crash diets</li>
           <li>Cooking skills you can repeat</li>
@@ -88,10 +88,9 @@ export default function HomePage() {
         <div className="max-w-3xl">
           <h2 className="text-2xl md:text-3xl">You know you need to make a change. Starting is the hard part.</h2>
           <p className="mt-4">
-            Maybe the gym feels intimidating and you are not sure what the equipment does. Maybe diets have come and
-            gone, the accountability never stuck, and cooking healthy meals feels out of reach. Maybe you have
-            restarted before and it did not last. None of that disqualifies you — it is exactly who this coaching is
-            built for.
+            Walking into a gym can feel intimidating. Diets come and go, accountability fades, and cooking healthy
+            meals can seem out of reach. If you have started and stopped before, you are not alone. This coaching
+            was built for exactly that.
           </p>
         </div>
       </section>
@@ -106,7 +105,7 @@ export default function HomePage() {
               'Practical strength for daily life',
               'More energy and confident movement',
               'Knowing your way around the equipment',
-              'A food structure that fits normal life',
+              'A food structure that fits your lifestyle',
               'Confidence in your own kitchen',
               'Accountability that keeps you going',
               'A routine you can actually repeat',
@@ -122,7 +121,7 @@ export default function HomePage() {
 
       {/* Three service pillars */}
       <section className="container-site py-14">
-        <h2 className="text-2xl md:text-3xl">Three ways to get support — together or on their own</h2>
+        <h2 className="text-2xl md:text-3xl">Three ways to get support, together or on their own</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           <ServiceCard
             title="Personal Training"
@@ -131,7 +130,7 @@ export default function HomePage() {
           />
           <ServiceCard
             title="Nutrition Coaching"
-            description="Practical education, habit coaching, grocery planning, and weekly accountability — never crash diets or prescribed medical plans."
+            description="Practical education, habit coaching, grocery planning, and weekly accountability. Never crash diets or prescribed medical plans."
             href="/nutrition-coaching"
           />
           <ServiceCard
@@ -150,7 +149,7 @@ export default function HomePage() {
             {[
               {
                 step: '1. Talk',
-                text: `Book the ${site.consultationName} — 15 minutes about your goals, concerns, and schedule. No workout, no pressure, no obligation.`,
+                text: `Book the ${site.consultationName}: 15 minutes about your goals, concerns, and schedule. No workout, no pressure, no obligation.`,
               },
               {
                 step: '2. Start at your level',
@@ -184,7 +183,7 @@ export default function HomePage() {
             <h2 className="text-2xl">Build Your Own</h2>
             <p className="mt-3">
               One-time sessions and prepaid packs with no automatic renewal. Combine service categories and bundle
-              discounts apply automatically — with the exact total shown before you ever talk to Connor.
+              discounts apply automatically, with the exact total shown before you ever talk to Connor.
             </p>
           </div>
         </div>
@@ -202,7 +201,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-2xl md:text-3xl">Meet Connor Kearns</h2>
             <p className="mt-4">
-              Connor came to coaching from years in restaurants, hospitality, and consulting — real-world experience
+              Connor came to coaching from years in restaurants, hospitality, and consulting: real-world experience
               with food, routines, and helping people under pressure. He also worked as an emergency dispatcher, which
               shaped a calm, organized, attentive style. He holds a B.S. in Organizational Management from Purdue
               Global, and his coaching approach is simple: start where you are, and build strength that lasts.
@@ -228,7 +227,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-2xl md:text-3xl">Better eating has to fit real life</h2>
             <p className="mt-4">
-              No crash diets and no prescriptions — just a grocery framework, a weekly prep plan, and simple cooking
+              No crash diets and no prescriptions. Just a grocery framework, a weekly prep plan, and simple cooking
               skills taught in your own kitchen. The goal is a food routine you can keep on a busy week, not a perfect
               one.
             </p>
@@ -258,7 +257,7 @@ export default function HomePage() {
         <div className="container-site text-center">
           <h2 className="text-2xl md:text-3xl">You do not have to figure this out alone.</h2>
           <p className="mx-auto mt-3 max-w-xl">
-            Start with a free 15-minute conversation. No workout, no pressure — just honest answers about where to
+            Start with a free 15-minute conversation. No workout, no pressure, just honest answers about where to
             begin.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4">

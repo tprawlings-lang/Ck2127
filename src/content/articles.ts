@@ -31,7 +31,7 @@ export const articles: ArticleMeta[] = [
     slug: 'how-to-start-working-out-again-after-40',
     title: 'How to Start Working Out Again After 40',
     description:
-      'A calm, practical guide to restarting exercise after years away — what to do first, what to skip, and how to make it stick.',
+      'A calm, practical guide to restarting exercise after years away: what to do first, what to skip, and how to make it stick.',
     category: 'Getting Started',
     author: 'CK2717 Fitness (pending Connor’s review)',
     publishDate: '2026-07-24',
@@ -42,7 +42,7 @@ export const articles: ArticleMeta[] = [
     slug: 'first-personal-training-session',
     title: 'What Happens During Your First Personal-Training Session?',
     description:
-      'Exactly what to expect at a first session with Connor — from meeting at the door to your written next steps. No surprises, no tests.',
+      'Exactly what to expect at a first session with Connor, from meeting at the door to your written next steps. No surprises, no tests.',
     category: 'Getting Started',
     author: 'CK2717 Fitness (pending Connor’s review)',
     publishDate: '2026-07-24',
@@ -64,7 +64,7 @@ export const articles: ArticleMeta[] = [
     slug: 'simple-sunday-meal-prep-routine',
     title: 'A Simple Sunday Meal-Prep Routine',
     description:
-      'A repeatable 90-minute Sunday routine — plan, shop, batch-cook, portion, and store — that keeps weekday eating on track.',
+      'A repeatable 90-minute Sunday routine (plan, shop, batch-cook, portion, and store) that keeps weekday eating on track.',
     category: 'Meal Prep and Cooking',
     author: 'CK2717 Fitness (pending Connor’s review)',
     publishDate: '2026-07-24',

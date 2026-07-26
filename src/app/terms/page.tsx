@@ -19,7 +19,7 @@ export default function TermsPage() {
         },
         {
           heading: 'Pricing and availability',
-          body: 'Displayed prices are current service prices and may change for new clients. A submitted form or calculator selection is a conversation request — it is not enrollment, a reservation, or a charge.',
+          body: 'Displayed prices are current service prices and may change for new clients. A submitted form or calculator selection is a conversation request. It is not enrollment, a reservation, or a charge.',
         },
         {
           heading: 'Intellectual property',

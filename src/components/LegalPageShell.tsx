@@ -18,7 +18,7 @@ export function LegalPageShell({
       <div className="max-w-3xl">
         <h1 className="text-3xl md:text-4xl">{title}</h1>
         <p className="mt-4 rounded-lg border-2 border-dashed border-terracotta bg-terracotta/5 p-4 text-sm font-semibold text-terracotta-dark">
-          PLACEHOLDER — DRAFT FOR ATTORNEY REVIEW. This page outlines intended policy in plain language. Final legal
+          PLACEHOLDER: DRAFT FOR ATTORNEY REVIEW. This page outlines intended policy in plain language. Final legal
           wording must be approved by qualified Arizona counsel before public launch (see legal-review.md).
         </p>
         <p className="mt-6">{intro}</p>

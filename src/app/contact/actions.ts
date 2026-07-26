@@ -81,7 +81,7 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
   const notifyTo = process.env.LEAD_NOTIFY_EMAIL ?? site.email;
 
   const notification = [
-    `New consultation request — ${site.brandName}`,
+    `New consultation request for ${site.brandName}`,
     '',
     `Name: ${sanitize(lead.firstName)} ${sanitize(lead.lastName ?? '')}`.trim(),
     `Email: ${sanitize(lead.email)}`,
@@ -102,7 +102,7 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
 
   const notifyResult = await sendEmail({
     to: notifyTo,
-    subject: `New lead: ${sanitize(lead.firstName)} — ${lead.pricingMode || 'general inquiry'}`,
+    subject: `New lead: ${sanitize(lead.firstName)} (${lead.pricingMode || 'general inquiry'})`,
     text: notification,
     replyTo: lead.email,
   });
@@ -119,7 +119,7 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
   await sendEmail({
     to: lead.email,
     subject: `Thanks for reaching out to ${site.brandName}`,
-    text: `Thanks for reaching out. Connor will contact you personally to learn more about your goals, answer your questions, and review the services you selected. Submitting this form does not enroll you or charge you.\n\n— ${site.brandName}\n${site.url}`,
+    text: `Thanks for reaching out. Connor will contact you personally to learn more about your goals, answer your questions, and review the services you selected. Submitting this form does not enroll you or charge you.\n\n${site.brandName}\n${site.url}`,
   });
 
   redirect('/thank-you');

@@ -26,7 +26,7 @@ export default function ResourcesPage() {
         <div className="container-site py-14">
           <h1 className="text-3xl md:text-4xl">Resources</h1>
           <p className="mt-4 max-w-2xl">
-            Plain-language answers to the questions Connor hears most — no hype, no jargon, and no pressure.
+            Plain-language answers to the questions Connor hears most. No hype, no jargon, no pressure.
           </p>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function ResourcesPage() {
           );
         })}
         <p className="text-sm text-muted">
-          More guides are on the way — including strength after 50, grocery-list building, and training safely in
+          More guides are on the way, including strength after 50, grocery-list building, and training safely in
           Phoenix heat.
         </p>
       </section>

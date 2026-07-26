@@ -11,7 +11,7 @@ export default function CookingSafetyPage() {
   return (
     <LegalPageShell
       title="Healthy Cooking and Kitchen Safety Terms"
-      intro="Healthy Cooking Coaching is hands-on instruction in the client's kitchen — the client participates in the cooking process. It is not meal delivery, catering, or prepared-food sales."
+      intro="Healthy Cooking Coaching is hands-on instruction in the client's kitchen, where the client participates in the cooking process. It is not meal delivery, catering, or prepared-food sales."
       sections={[
         {
           heading: 'Groceries',

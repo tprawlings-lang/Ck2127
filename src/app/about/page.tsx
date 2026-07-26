@@ -23,14 +23,14 @@ export default function AboutPage() {
         <div className="container-site grid items-start gap-10 py-14 md:grid-cols-[1fr_1.6fr]">
           <SitePhoto slot="aboutPortrait" className="aspect-[3/4]" sizes="(max-width: 768px) 100vw, 35vw" priority />
           <div>
-            <h1 className="text-3xl md:text-4xl">I work with people who are starting over — or starting for the first time.</h1>
+            <h1 className="text-3xl md:text-4xl">I work with people who are starting over, or starting for the first time.</h1>
             <p className="mt-5">
               If walking into a gym feels intimidating, if diets have never stuck, or if it has simply been years
-              since exercise felt normal — you are exactly who I built this coaching for. My job is not to push you
+              since exercise felt normal, you are exactly who I built this coaching for. My job is not to push you
               through someone else&apos;s workout. It is to meet you at your current level and build from there.
             </p>
             <p className="mt-4 text-sm text-muted">
-              [DRAFT — final About copy pending Connor&apos;s approval before launch]
+              [DRAFT: final About copy pending Connor&apos;s approval before launch]
             </p>
           </div>
         </div>
@@ -41,13 +41,13 @@ export default function AboutPage() {
           <div>
             <h2 className="text-2xl">Why coaching, and why adults 40+</h2>
             <p className="mt-3">
-              Connor spent years in restaurants, hospitality, beverage programs, and consulting — including BarStarts
-              and BarSmarts education — working with food, systems, and people in real-world settings. That
+              Connor spent years in restaurants, hospitality, beverage programs, and consulting, including BarStarts
+              and BarSmarts education, working with food, systems, and people in real-world settings. That
               background is why his coaching extends past the gym floor into practical kitchen instruction, meal
               preparation systems, and recipe execution that fits a normal week.
             </p>
             <p className="mt-3">
-              He also worked as an emergency dispatcher — experience that shaped a calm, organized, and attentive
+              He also worked as an emergency dispatcher, experience that shaped a calm, organized, and attentive
               communication style. (That is a communication skill, not medical experience, and Connor never presents
               it as medical authority.)
             </p>
@@ -68,7 +68,7 @@ export default function AboutPage() {
             <h2 className="text-2xl">How Connor coaches</h2>
             <ul className="mt-3 list-disc space-y-2 pl-5">
               <li>
-                <strong>Training:</strong> progressive strength work that begins at your current ability — no
+                <strong>Training:</strong> progressive strength work that begins at your current ability, with no
                 punishment workouts, no shame, no bodybuilding culture.
               </li>
               <li>
@@ -91,7 +91,7 @@ export default function AboutPage() {
             <ul className="mt-3 list-disc space-y-2 pl-5">
               <li>I will meet you at the door on your first visit and stay with you the whole session.</li>
               <li>I will never shame you, rush you, or compare you to anyone else.</li>
-              <li>You will always know what to do next — in the gym, at the store, and in your kitchen.</li>
+              <li>You will always know what to do next: in the gym, at the store, and in your kitchen.</li>
               <li>You will always see the full price before you commit, including the separate gym membership.</li>
               <li>If your needs are outside my role, I will say so and refer you to the right professional.</li>
             </ul>

@@ -23,7 +23,7 @@ export default function AccessibilityPage() {
         },
         {
           heading: 'Feedback',
-          body: 'If any part of this site is difficult to use, please tell us through the contact page — accessibility reports are prioritized and fixed.',
+          body: 'If any part of this site is difficult to use, please tell us through the contact page. Accessibility reports are prioritized and fixed.',
         },
       ]}
     />

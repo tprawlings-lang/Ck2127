@@ -30,19 +30,19 @@ export default function TrainingLocationPage() {
             <h2 className="text-xl">Your first visit, step by step</h2>
             <ol className="mt-3 list-decimal space-y-2 pl-5">
               <li>Park in the lot at the suite address above.</li>
-              <li>Connor meets you at the entrance — you never have to walk in alone.</li>
+              <li>Connor meets you at the entrance, so you never have to walk in alone.</li>
               <li>He guides the entire visit: check-in, warm-up, every exercise, and the wrap-up.</li>
               <li>You leave with a clear next step and your next appointment time.</li>
             </ol>
             <p className="mt-3 text-sm text-muted">
-              [PLACEHOLDER: entrance photo, parking notes, and arrival details pending gym permission — tracked in
+              [PLACEHOLDER: entrance photo, parking notes, and arrival details pending gym permission. Tracked in
               assets-needed.md]
             </p>
           </div>
           <div className="card">
             <h2 className="text-xl">What to bring</h2>
             <ul className="mt-3 list-disc space-y-2 pl-5">
-              <li>Comfortable clothes you can move in — nothing special required.</li>
+              <li>Comfortable clothes you can move in. Nothing special required.</li>
               <li>Closed-toe athletic shoes.</li>
               <li>A water bottle.</li>
               <li>Any questions you have. Asking is encouraged.</li>

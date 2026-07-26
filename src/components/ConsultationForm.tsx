@@ -41,7 +41,7 @@ export function ConsultationForm({
           <p className="font-heading font-bold text-slate-deep">Your selected plan</p>
           <p className="mt-1 text-sm">{selectedPlanSummary}</p>
           <p className="mt-1 text-xs text-muted">
-            This is a starting point for your conversation — nothing is booked or charged yet.
+            This is a starting point for your conversation. Nothing is booked or charged yet.
           </p>
         </div>
       )}

@@ -123,10 +123,10 @@ export const pricing = {
   subscriberExtras: [
     { label: 'Additional 50-minute training session', cents: 9000, note: 'Subject to schedule and normal cancellation policy.' },
     { label: 'Additional 30-minute nutrition call', cents: 5900, note: 'Does not replace medical nutrition care.' },
-    { label: '60-minute grocery-shopping lesson', cents: 9900, note: 'Travel rule applies when in person. Purchases are separate.' },
+    { label: '60-minute guided grocery store trip', cents: 9900, note: 'Travel rule applies when in person. Purchases are separate.' },
     { label: 'Additional two-hour cooking lesson', cents: 19900, note: 'Plus groceries. Travel and cooking cancellation rules apply.' },
-    { label: 'One added adult cooking participant', cents: 4000, note: 'Base cooking price includes one client.' },
-    { label: 'Each additional participant after the first added adult', cents: 2500, note: 'Maximum four total participants unless Connor gives a custom quote.' },
+    { label: 'Add a second adult to a cooking lesson', cents: 4000, note: 'Base cooking price includes one client.' },
+    { label: 'Each additional adult after the second', cents: 2500, note: 'Maximum four total participants unless Connor gives a custom quote.' },
   ],
 
   travel: {
